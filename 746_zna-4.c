@@ -1,0 +1,1 @@
+#include <stdbool.h> #include <stdio.h> #include <stdlib.h> /home/746_zna/746_zna-4-1.c 291/1783 16%#include <stdbool.h> #include <stdio.h> #include <stdlib.h> typedef struct queue{ struct queue* next; struct queue* prev; int value; } q; typedef struct HeadAndTail{ struct queue* head; struct queue* tail; int size; } ht; ht* CreateQueue(){ ht* creation = malloc(sizeof(ht));
